@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { FocusDecorator } from 'draft-js-plugins/draft-js-focus-plugin';
-import { DraggableDecorator } from 'draft-js-plugins/draft-js-dnd-plugin';
-import { ToolbarDecorator } from 'draft-js-plugins/draft-js-toolbar-plugin';
-import { AlignmentDecorator } from 'draft-js-plugins/draft-js-alignment-plugin';
-import { ResizeableDecorator } from 'draft-js-plugins/draft-js-resizeable-plugin';
+import { FocusDecorator } from 'draft-js-focus-plugin';
+import { DraggableDecorator } from 'draft-js-dnd-plugin';
+import { ToolbarDecorator } from 'draft-js-toolbar-plugin';
+import { AlignmentDecorator } from 'draft-js-alignment-plugin';
+import { ResizeableDecorator } from 'draft-js-resizeable-plugin';
 
 const getDisplayName = WrappedComponent => {
   const component = WrappedComponent.WrappedComponent || WrappedComponent;

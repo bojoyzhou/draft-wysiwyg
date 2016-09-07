@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import Editor from 'draft-js-plugins/draft-js-plugins-editor-wysiwyg';
-import createCleanupEmptyPlugin from 'draft-js-plugins/draft-js-cleanup-empty-plugin';
-import createEntityPropsPlugin from 'draft-js-plugins/draft-js-entity-props-plugin';
-import createFocusPlugin, { FocusDecorator } from 'draft-js-plugins/draft-js-focus-plugin';
-import createDndPlugin, { DraggableDecorator } from 'draft-js-plugins/draft-js-dnd-plugin';
-import createToolbarPlugin, { ToolbarDecorator } from 'draft-js-plugins/draft-js-toolbar-plugin';
-import createAlignmentPlugin, { AlignmentDecorator } from 'draft-js-plugins/draft-js-alignment-plugin';
-import createResizeablePlugin, { ResizeableDecorator } from 'draft-js-plugins/draft-js-resizeable-plugin';
+import Editor from 'draft-js-plugins-editor-wysiwyg';
+import createCleanupEmptyPlugin from 'draft-js-cleanup-empty-plugin';
+import createEntityPropsPlugin from 'draft-js-entity-props-plugin';
+import createFocusPlugin, { FocusDecorator } from 'draft-js-focus-plugin';
+import createDndPlugin, { DraggableDecorator } from 'draft-js-dnd-plugin';
+import createToolbarPlugin, { ToolbarDecorator } from 'draft-js-toolbar-plugin';
+import createAlignmentPlugin, { AlignmentDecorator } from 'draft-js-alignment-plugin';
+import createResizeablePlugin, { ResizeableDecorator } from 'draft-js-resizeable-plugin';
 // Blocks
-import createImagePlugin, { imageCreator, imageStyles } from 'draft-js-plugins/draft-js-image-plugin';
-import createTablePlugin, { tableCreator, tableStyles } from 'draft-js-plugins/draft-js-table-plugin';
+import createImagePlugin, { imageCreator, imageStyles } from 'draft-js-image-plugin';
+import createTablePlugin, { tableCreator, tableStyles } from 'draft-js-table-plugin';
 
 // Styles
-import 'draft-js-plugins/draft-js-alignment-plugin/lib/plugin.css';
-import 'draft-js-plugins/draft-js-focus-plugin/lib/plugin.css';
-import 'draft-js-plugins/draft-js-image-plugin/lib/plugin.css';
-import 'draft-js-plugins/draft-js-table-plugin/lib/plugin.css';
-import 'draft-js-plugins/draft-js-toolbar-plugin/lib/plugin.css';
+import 'draft-js-alignment-plugin/lib/plugin.css';
+import 'draft-js-focus-plugin/lib/plugin.css';
+import 'draft-js-image-plugin/lib/plugin.css';
+import 'draft-js-table-plugin/lib/plugin.css';
+import 'draft-js-toolbar-plugin/lib/plugin.css';
 
 // Utils
-import addBlock from 'draft-js-plugins/draft-js-dnd-plugin/lib/modifiers/addBlock';
+import addBlock from 'draft-js-dnd-plugin/lib/modifiers/addBlock';
 import { RichUtils } from 'draft-js';
 
 const image = ResizeableDecorator({
