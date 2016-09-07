@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {EditorState, convertToRaw, convertFromRaw} from 'draft-js';
-import Editor from 'draft-js-plugins-editor-wysiwyg';
+import Editor from 'draft-js-plugins/draft-js-plugins-editor-wysiwyg';
 import {DefaultDraftBlockRenderMap} from 'draft-js';
 import createPlugins from './create-plugins';
 import {Map} from 'immutable';
