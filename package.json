@@ -28,7 +28,7 @@
     "patch": "npm run build; npm version patch --force; npm publish"
   },
   "dependencies": {
-    "bj-draft-js-dnd-plugin": "^2.0.0-beta.2",
+    "bj-draft-js-dnd-plugin": "^2.0.0-beta.3",
     "draft-js": "^0.7.0",
     "draft-js-alignment-plugin": "^1.0.3",
     "draft-js-cleanup-empty-plugin": "^1.0.2",
