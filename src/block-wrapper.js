@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { FocusDecorator } from 'draft-js-focus-plugin';
-import { DraggableDecorator } from 'draft-js-dnd-plugin';
+import { DraggableDecorator } from 'bj-draft-js-dnd-plugin';
 import { ToolbarDecorator } from 'draft-js-toolbar-plugin';
 import { AlignmentDecorator } from 'draft-js-alignment-plugin';
 import { ResizeableDecorator } from 'draft-js-resizeable-plugin';

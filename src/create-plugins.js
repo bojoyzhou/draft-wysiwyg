@@ -3,7 +3,7 @@ import Editor from 'draft-js-plugins-editor-wysiwyg';
 import createCleanupEmptyPlugin from 'draft-js-cleanup-empty-plugin';
 import createEntityPropsPlugin from 'draft-js-entity-props-plugin';
 import createFocusPlugin, { FocusDecorator } from 'draft-js-focus-plugin';
-import createDndPlugin, { DraggableDecorator } from 'draft-js-dnd-plugin';
+import createDndPlugin, { DraggableDecorator } from 'bj-draft-js-dnd-plugin';
 import createToolbarPlugin, { ToolbarDecorator } from 'draft-js-toolbar-plugin';
 import createAlignmentPlugin, { AlignmentDecorator } from 'draft-js-alignment-plugin';
 import createResizeablePlugin, { ResizeableDecorator } from 'draft-js-resizeable-plugin';
@@ -19,7 +19,7 @@ import 'draft-js-table-plugin/lib/plugin.css';
 import 'draft-js-toolbar-plugin/lib/plugin.css';
 
 // Utils
-import addBlock from 'draft-js-dnd-plugin/lib/modifiers/addBlock';
+import addBlock from 'bj-draft-js-dnd-plugin/lib/modifiers/addBlock';
 import { RichUtils } from 'draft-js';
 
 const image = ResizeableDecorator({
